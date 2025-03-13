@@ -1,4 +1,4 @@
-.container{
+.container {
     background-color: whitesmoke;
     width: 100%;
     padding: 5px;
@@ -6,40 +6,46 @@
     margin-top: 100px;
 }
 
-.headerMenu{
+.headerMenu {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(10, 27, 114,0.8);
+    background-color: rgba(10, 27, 114, 0.8);
     width: 100%;
-    padding: 16px;  
+    padding: 16px;
     color: white;
+    text-align: center;
 }
 
-.negocios{
+.negocios {
     background-color: white;
     font-family: Verdana;
     padding-left: 50px;
 }
 
-.negocios h2{
-    color: rgba(10, 27, 114,1);
+.negocios h2 {
+    color: rgba(10, 27, 114, 1);
 }
 
-.container main img{
+.container main img {
     width: 100%;
 }
 
+.menu ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 
 .menu ul li {
-    list-style: none;
-    float: left;
     margin: 0 15px;
 }
 
 .menu ul li a {
     text-decoration: none;
-    font-size: 24px; /* Tamaño de los iconos */
+    font-size: 24px; 
     color: whitesmoke;
 }
 
@@ -49,7 +55,7 @@
     vertical-align: middle;
 }
 
-footer{
+footer {
     background-color: #16254C;
     width: 100%;
     padding: 20px;
