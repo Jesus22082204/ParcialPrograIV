@@ -18,10 +18,10 @@
 
 .logo-servicio {
     display: block;
-    max-width: 150px; /* Reduce el tamaño máximo */
-    width: 100%; /* Se ajusta automáticamente */
+    max-width: 200px;
+    width: 50%;
     height: auto;
-    margin: 20px auto; /* Centrar la imagen */
+    margin: 20px auto;
 }
 
 
